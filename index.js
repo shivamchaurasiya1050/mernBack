@@ -17,7 +17,7 @@ const server= http.createServer(app);
 
 const io= new Server(server,{
     cors:{
-        origin:" http://localhost:10000",
+        origin:"https://mernfrot.onrender.com",
         methods:["GET","POST"]
     },
 });
